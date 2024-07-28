@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed AL-Khulidi - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ahmed AL-Khulidi">Ahmed AL-Khulidi</h1>
+
+          <p class="title">Flutter developer</p>
+          
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.facebook.com/profile.php?id=61550661898234&mibextid=ZbWKwL" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/ahmed-al-khulidi-%F0%9F%87%B5%F0%9F%87%B8-5b1114272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://youtube.com/@ahmed_khulidi?si=MThsTYwTVLmkLb_r" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>            
+  
+            <li class="social-item">
+              <a href="https://www.instagram.com/ahmedkhulidi?igsh=MXVoNjJya3IxOWJjeg==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://github.com/ahmedakpro" class="social-link">
+                <i style="font-size:18px" class="fab fa-github"></i>
+              </a>
+            </li>
+            
+          <!---      Language and Theme Toggle Buttons --> 
+          <div class="toggle-buttons">
+            <button id="theme-toggle" onclick="toggleTheme()">
+              <i class="fas fa-adjust"></i>
+            </button>
+          </div>
+  
+          </ul>
+          
+
+    
+        </div>
+ 
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="ahmed2002.agc@gmail.com" class="contact-link">ahmed2002.agc@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+967776646961" class="contact-link">+967-776646961</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-01-31">Jan 31, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hajdah, Taiz, Yemen</address>
+            </div>
+            
+
+          </li>
+
+        </ul>
+
+
+      
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+         
+        </ul>
+
+      </nav>
+
+      <!--- #ABOUT -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <li class="service-item">
+        <section class="about-text">
+          <p>
+            I'm a Mobile Application Developer using Dart and Flutter. I have developed a range of successful applications for private sector institutions, as well as multiple personal projects.
+          </p>
+         
+          <p>
+            I possess strong skills in designing user experience and integrating them with databases, alongside a comprehensive background in technical and administrative fields.I am passionate about continuous learning and achieving goals. I am flexible and able to work under pressure, efficiently within a team to achieve the best results.
+          </p>
+        </li>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UX Design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Drawing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Drawing up plans</h4>
+
+                <p class="service-item-text">
+                  Good study and planning of the parts required to produce the best performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-db.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database</h4>
+
+                <p class="service-item-text">
+                  Preparing and connecting various databases such as Firebase, SqfLite, MongoDB, etc.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-doc.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Documenting</h4>
+
+                <p class="service-item-text">
+                  Preparing reports on the completed work and documenting all the required operations and data.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Taiz University - Computer Center for IT</h4>
+
+              <span>Apr 2020 — Jul 2023</span>
+
+              <p class="timeline-text">
+                Data structure, Logic, Mathematics, C++, Java, VB.net, Web Technologies, DB Management, Security concepts Accounting, Information Management, CCNA, ICDL, Networking, Software engineering and Android development. Excellent general grade and first in the Class with a cumulative average of 96%.
+              </p>
+
+            </li>
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school - Martyr Mohamed Humarah School</h4>
+
+              <span>Jan 2018 — Jan 2019</span>
+
+              <p class="timeline-text">
+                Very Good Grade, 80.81%.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelancer - Mobile Application Developer</h4>
+
+              <span>Jan 2023 — Present</span>
+
+              <p class="timeline-text">
+                Develop a responsive applications for Android and ios, and link it with various databases like SqLite, Hive, Firebase and MongoDB.
+              </p>
+
+            </li>
+                        <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mobile Programming Course Instructor</h4>
+
+              <span>Jan 2023 — Jan 2024</span>
+
+              <p class="timeline-text">
+                Presenting lectures on Mobile Applications Development (introduction to Dart-Flutter and their concepts) at Taiz University and Vision Fiker Institute.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of Modern Technology - Data Entry</h4>
+
+              <span>Jan 2021 — May 2023</span>
+
+              <p class="timeline-text">
+                Work with MS-Office programs to entering students data and preparing reports.
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+        
+<!-- SKILLS Section-->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dart</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git & Github</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MS-Office</h5>
+                <data value="50">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>My Work</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Report</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>My Work</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Report</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WorksPro</h3>
+
+                <p class="project-category">Registring work requests or price offers, as well as creating business account statements in a smooth and flexible way, suitable for working for small store owners, providing a security lock, working without contact, and issuing a distinct print sheet</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="akMart"" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AkMart E-commerce</h3>
+
+                <p class="project-category">An e-commerce user experience, displaying products and browsi g sections, authentication, the ability to pay, determining location via maps, and tracking the order, while providing a management application that enables adding sections and new products, providing notifications of orders, managing the order basket and discount coupons, as well as the name and logo of the store.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Aboud Grill" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aboud Grill</h3>
+
+                <p class="project-category">It was worked on to obtain a high diploma degree. It displays the menu and sections in the restaurant, determines the location and virtual payment.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my work">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PGE</h3>
+
+                <p class="project-category">Managi g statements of customers, workers, and funds at each separate work site, while providing the ability to filter, accurately sort, issue receipt and disbursement vouchers, provide special access for management and employees, and the ability to print in a modern and contemporary format.
+</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my work">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Traveling Office</h3>
+
+                <p class="project-category">Creati g transaction vouchers(Umrah, Hajj, work visa...etc.) for each client, while providing filtering and filtration for each client and each fund, while providing a complete visualization of the incomings and outgoings to and from the office through the handlers and the parties to the transaction (representatives), the destination of the transaction, and the funds.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my work">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="AL-Hadarah" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AL-Hadarah Workshop</h3>
+
+                <p class="project-category">Sales management including invoices, receivable bonds and detailed account statement preparation for customers in different currencies. He creates a separate account statement for each customer, and prints with a distinct appearance.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="my work">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.jpg" alt="al-mahyub" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AL-Mahyub Office</h3>
+
+                <p class="project-category">Issuin receipt and disbursement bonds, preparing statements of the office’s operations, closing customer accounts, in addition to issuing custody release bonds, while providing accurate filtering and liquidation of accounts and funds.</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificates
+      -->
+
+      <article class="certificates" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="certif-posts">
+
+          <ul class="certif-posts-list">
+
+<li class="certif-post-item" onclick="openModal(this)">
+              <a href="javascript:void(0);">
+                  <figure class="certif-banner-box">
+                      <img src="./assets/images/certif-9.1.jpg" alt="UI interactions of the week" loading="lazy">
+                      <img src="./assets/images/certif-9.2.jpg" alt="UI interactions of the week" loading="lazy">
+                      
+                  </figure>
+                  <div class="certif-content">
+                      <div class="certif-meta">
+                          <p class="certif-category">UX</p>
+                          <span class="dot"></span>
+                          <time datetime="2022-05-6">July 25, 2024</time>
+                      </div>
+                      <h3 class="h3 certif-item-title">DIGITAL SKILLS: ARTIFICIAL INTELLIGENCECREATING A GREAT USER EXPERIENCE FOR MOBILE APPS - FutureLearn</h3>
+                      <p class="certif-text">
+                          Explored the world of app design with the Institute of Coding and learnt how to create a great user experience. They heard from industry professionals and had the opportunity to create their own app.
+                      </p>
+                  </div>
+              </a>
+          </li>
+<li class="certif-post-item" onclick="openModal(this)">
+              <a href="javascript:void(0);">
+                  <figure class="certif-banner-box">
+                      <img src="./assets/images/certif-10.1.jpg" alt="UI interactions of the week" loading="lazy">
+                      <img src="./assets/images/certif-10.2.jpg" alt="UI interactions of the week" loading="lazy">
+                      
+                  </figure>
+                  <div class="certif-content">
+                      <div class="certif-meta">
+                          <p class="certif-category">UX</p>
+                          <span class="dot"></span>
+                          <time datetime="2022-05-6">July 24, 2024</time>
+                      </div>
+                      <h3 class="h3 certif-item-title">DIGITAL SKILLS: MOBILE</h3>
+                      <p class="certif-text">
+                          Described the importance of mobile in an ever-evolving digital world. It provided an introduction to mobile design, development and creating mobile experiences, as well as bigger concepts related to mobile technology.
+                      </p>
+                  </div>
+              </a>
+          </li>
+            <li class="certif-post-item">
+              <a href="#">
+
+                <figure class="certif-banner-box">
+                  <img src="./assets/images/certif-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="certif-content">
+
+                  <div class="certif-meta">
+                    <p class="certif-category">Network</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 21, 2021</time>
+                  </div>
+
+                  <h3 class="h3 certif-item-title">Network Server Security - Alison</h3>
+
+                  <p class="certif-text">
+                    Concepts of protecting the server, preventing attacks, and securing it from external attacks.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certif-post-item">
+              <a href="#">
+
+                <figure class="certif-banner-box">
+                  <img src="./assets/images/certif-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certif-content">
+
+                  <div class="certif-meta">
+                    <p class="certif-category">IT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 16, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certif-item-title">ICDL Base - Edraak</h3>
+
+                  <p class="certif-text">
+                    Introduction to computer basics, use of MS-Office programs, and Internet basics.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+<li class="certif-post-item">
+              <a href="#">
+
+                <figure class="certif-banner-box">
+                  <img src="./assets/images/certif-7.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certif-content">
+
+                  <div class="certif-meta">
+                    <p class="certif-category">IT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug 29, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certif-item-title">TUCDL - Taiz University</h3>
+
+                  <p class="certif-text">
+                    Complete the  base concepts of IT, introduction to communication technology and information, MS-Office programs and printing.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="certif-post-item">
+              <a href="#">
+
+                <figure class="certif-banner-box">
+                  <img src="./assets/images/certif-8.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certif-content">
+
+                  <div class="certif-meta">
+                    <p class="certif-category">IT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 6, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certif-item-title">English for the Workplace - Edraak</h3>
+
+                  <p class="certif-text">
+                    The essentials of business communication in English at the
+workplace, how to meet new people at work, handling phone calls, and running
+presentation.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="certif-post-item">
+              <a href="#">
+
+                <figure class="certif-banner-box">
+                  <img src="./assets/images/certif-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="certif-content">
+
+                  <div class="certif-meta">
+                    <p class="certif-category">IT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 6, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certif-item-title">Basics of Technical Skills - Edraak</h3>
+
+                  <p class="certif-text">
+                    The use of digital technologies, how the computer works and how to deal with its components, what are the different ways to access information on the Internet, the importance of sharing information safely and responsibly over the Internet, and how to create valuable digital content.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certif-post-item" onclick="openModal(this)">
+              <a href="javascript:void(0);">
+                  <figure class="certif-banner-box">
+                      <img src="./assets/images/certif-6.1.jpg" alt="UI interactions of the week" loading="lazy">
+                      <img src="./assets/images/certif-6.2.jpg" alt="UI interactions of the week" loading="lazy">
+                      
+                  </figure>
+                  <div class="certif-content">
+                      <div class="certif-meta">
+                          <p class="certif-category">AI</p>
+                          <span class="dot"></span>
+                          <time datetime="2022-05-6">May 6, 2021</time>
+                      </div>
+                      <h3 class="h3 certif-item-title">DIGITAL SKILLS: ARTIFICIAL INTELLIGENCE - FutureLearn</h3>
+                      <p class="certif-text">
+                          Discover the potential of Artificial Intelligence (AI) and how it can change the workplace. It enhanced understanding of AI with interesting facts, trends, and insights, and helped to explore the working relationship between humans and AI.
+                      </p>
+                  </div>
+              </a>
+          </li>
+      <li class="certif-post-item" onclick="openModal(this)">
+              <a href="javascript:void(0);">
+                  <figure class="certif-banner-box">
+                      <img src="./assets/images/certif-11.1.jpg" alt="UI interactions of the week" loading="lazy">
+                      <img src="./assets/images/certif-11.2.jpg" alt="UI interactions of the week" loading="lazy">
+                      
+                  </figure>
+                  <div class="certif-content">
+                      <div class="certif-meta">
+                          <p class="certif-category">IT</p>
+                          <span class="dot"></span>
+                          <time datetime="2022-05-6">May 16, 2021</time>
+                      </div>
+                      <h3 class="h3 certif-item-title">INTRODUCTION TO INDIE GAMES - FutureLearn</h3>
+                      <p class="certif-text">                        Explored the thriving independent games sector. Learners examined its cultural and economic importance and developed an understanding of what indie games are and how they’re made.They explored the skills required to work in the industry, and how to go about developing them.
+                      </p>
+                  </div>
+              </a>
+          </li>
+          <div id="modal" class="modal">
+              <div class="modal-content">
+                  <span class="close" onclick="closeModal()">&times;</span>
+                  <div class="modal-slides" id="modalSlides"></div>
+                  <div class="indicators" id="modalIndicators"></div>
+              </div>
+          </div>
+          
+          
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  
+ 
+
+  <!--
+    - ionicon link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/slider.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  
+</body>
+
+</html>
